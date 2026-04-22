@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-header {
+  background: #266ca9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  background: #266ca9;
+  padding: 10px 40px;
+  font-size: 50px; 
+  font-weight: bold;
+}
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("https://kwclaw.com/wp-content/uploads/2021/07/The-Woodlands-Business-Lawyer.jpg") center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: #ffffff;
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.nav-bar {
+  background: #c6DBEF;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav-btn {
+  width: 120px;
+  height: 50px;
+}
+
+.nav-links span {
+  background: #c6DBEF;
+  margin-left: 10px;
+  padding: 5px 15px;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 120px);
+}
+
+.highlight {
+  background: #266ca9;
+  color: white;
+  text-align: center;
+}
+
+.sidebar {
+  width: 180px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.sidebar-box {
+  padding: 8px;           
+  margin-bottom: 10px;  
+  border-radius: 6px;
+}
+
+.sidebar-box h3 {
+  font-size: 16px;    
+  margin-bottom: 6px;
+}
+
+.sidebar-box p,
+.sidebar-box li {
+  font-size: 13px;      
+  line-height: 1.3;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #eee;
+}
+
+.image-placeholder {
+  background: #266ca9;
+  height: 250px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-box {
+  background: #bbb;
+  padding: 15px;
+  line-height: 1.5;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+.footer {
+  background: #266ca9;
+  color: white;
+  padding: 20px 30px;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+/* Contacts*/
+.contact-card {
+    background: #266ca9;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.contact-card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 3px;
+    background: linear-gradient(135deg, #000000);
+}
+
+.contact-card h3 {
+    margin: 5px 0;
+}
+
+.contact-card .role {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.contact-card img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/*Services*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+/* Header */
+header {
+  background: #266ca9;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Nav */
+nav {
+  background: #1b4f7a;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Sections */
+main {
+  padding: 20px;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.services {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact */
+.contact {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #266ca9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b4f7a;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #266ca9;
+  color: white;
+  margin-top: 20px;
+}
